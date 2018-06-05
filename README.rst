@@ -8,6 +8,8 @@ Instructions
 
 Fork this repository and extend this project in order to create a
 tic-tac-toe implementation.
+The game should be played by two humans, you don't need to code
+any AI logic.
 You are free to choose a procedural or object-oriented approach
 to solve the problem.
 Your code must be tested (and testable ;) and tests must pass.
