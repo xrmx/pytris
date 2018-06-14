@@ -21,7 +21,7 @@ def main(args=None):
         try:
             end, winner = win(board)
             if end:
-                print('{} ha vinto!'.format(winner))
+                print('{} ha vinto!'.format(marks[winner]))
                 break
             full(board)
             turn = 'o' if turn == 'x' else 'x'
