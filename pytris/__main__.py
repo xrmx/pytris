@@ -15,7 +15,7 @@ def main(args=None):
     while True:
         pos = input('{}, fai la tua mossa'.format(marks[turn]))
         x, y = pos.split(' ')
-        if not move(board, int(x), int(y), turn)
+        if not move(board, int(x), int(y), turn):
             continue
         try:
             end, winner = win(board)
