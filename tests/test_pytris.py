@@ -9,7 +9,7 @@ class SampleTestCase(TestCase):
         self.assertEqual(len(board), 3)
         self.assertEqual(len(board[0]), 3)
         self.assertEqual(len(board[1]), 3)
-        self.assertEqual(len(board[1]), 3)
+        self.assertEqual(len(board[2]), 3)
         self.assertFalse(any(board[0]))
         self.assertFalse(any(board[1]))
         self.assertFalse(any(board[2]))
