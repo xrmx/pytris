@@ -1,6 +1,7 @@
 import sys
 
-from .lib import init_board, win, move, EndGame
+from lib import (
+    init_board, win, move, EndGame, full)
 
 
 def main(args=None):
